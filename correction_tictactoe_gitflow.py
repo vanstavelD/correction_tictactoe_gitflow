@@ -15,7 +15,7 @@ def afficher_grille(plateau:dict) -> None:
                 print(elt, end="\t|\t")
         print("\n---------------------------------------------------------")
         
- def est_coup_valide(plateau:dict, coup:str) -> bool:
+def est_coup_valide(plateau:dict, coup:str) -> bool:
     """Fonction qui vérifie si un coup est valide
     Args:
         plateau (dict): Le plateau de jeu
@@ -39,7 +39,7 @@ def afficher_grille(plateau:dict) -> None:
     
     
     def est_pleine(plateau:dict) -> bool:
-    """Fonction qui permet de savoir si la grille est pleine
+        """Fonction qui permet de savoir si la grille est pleine
     Args:
         plateau (dict): Un plateau de jeu
     Returns:
