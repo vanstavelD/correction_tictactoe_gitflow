@@ -1,3 +1,5 @@
+import os
+
 def jouer_coup(plateau:dict, joueur:str, coup:str) -> None:
     """Fonction qui joue un coup (Ne vérifie pas si le coup est valide)
     Args:
